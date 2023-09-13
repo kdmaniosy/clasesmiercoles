@@ -1,0 +1,29 @@
+/*Importancia de tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,100&display=swap');
+/*selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+/* selector por etiqueta */
+span {
+    color: orangered;
+}
+/* selector por id */
+#option_one, #option_three{
+    font-weight: 900;
+    background-color: aquamarine;
+    margin-left: 20px;
+}
+/* selector por clase */
+.option_group{
+     background-color: #000; /*000000 */
+}
+.option_group.other_option{
+    font-size: 50px;
+}
+/* selector por atributo */
+[disabled]{
+    background-color: red;
+}
