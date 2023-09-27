@@ -5,21 +5,35 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style_login.css">
     </head>
     <body>
-        <div>
-            <ul>
-            <li><a href="tablas.html">IR A TABLAS</a></li>
-            <li><a href="formularios.html">IR A FORMULARIOS</a></li>
-            <li><a href="texto.html">IR A TEXTO</a></li>
-            <li><a href="semánticas.html">IR A SEMÁNTICAS</a></li>
-            <li><a href="agrupación.html">IR A AGRUPACIÓN</a></li>
-            <li><a href="multimedia.html">IR A MULTIMEDIA</a></li>
-            <li><a href="estilos.html">IR A ESTILOS</a></li>
-            <li><a href="flexbox.html">IR A FLEXBLOX</a></li>
-
-            </ul>
+        <div class="background"></div>
+        <div class="centering">
+        <form action="" class="my_form">
+            <!-- .login_welcome>img.login+h1{Iniciar sesión} -->
+            <h1>Iniciar sesión</h1>
         </div>
+        <div class="text_field">
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" placeholder="Ingrese su correo electrnico" aria-label="email">
+            <img src="https://www.svgrepo.com/show/90903/email-envelope.svg" alt="Email icon" title="Email icon">
+            </div>
+            <div class="text_field">
+                <label for="Password">Password</label>
+                <input type="Password" id="Password" name="Password" placeholder="Ingrese su contraseña" aria-label="Password">
+                <img src="https://www.svgrepo.com/show/84319/password.svg" alt="Password icon" title="Password icon">
+                </div>
+                <input type="submit" class="my_form_button" value="Login">
+                <div class="my_form_actions">
+                    <div class="my_form_row"><span>¿olvido la contraseña?</span><a href="">Recuperar cuenta</a></div>
+                </div>
+                <div class="my_form_signup">
+                    <a href="#" title="Crear cuenta">Crear cuenta</a>
+                </div>
+        </form>
+
+
 
     </body>
 </html>
