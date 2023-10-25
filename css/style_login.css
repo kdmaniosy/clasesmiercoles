@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
+body {
+
+    background-color: rgb(150, 197, 253, 1);
+}
+
 :root{
     --primary: #dd946f;
     --primary-hover: #cd7d7d;
@@ -30,8 +35,8 @@ h1{
     width: 100vw;
     display: grid;
     place-items: center;
-    background-image: url(https://img.freepik.com/free-vector/realistic-galaxy-background_52683-12122.jpg?w=996&t=st=1695838009~exp=1695838609~hmac=54b5f2abf5c177a095b786ecd1a61cb760bee06405073a63a0c9503b0d762614);
-    background-repeat: no-repeat;
+    background-image: url(https://th.bing.com/th/id/OIP.wouXf4fPBKHAaNYWyrfczgHaFj?pid=ImgDet&rs=1);
+    /* background-repeat: no-repeat; */
     background-size: auto;
     opacity: 0.5;
 }
@@ -52,7 +57,7 @@ h1{
     background-color: var(--background);
     border: 1px solid var(--primary);
     border-radius: 16px;
-    box-shadow: 0 20px 60px var(--aura);
+    box-shadow: 00 20px 60px var(--aura);
     min-width: 280px;
     max-width: 460px;
     width: 100%;
@@ -110,7 +115,7 @@ h1{
     letter-spacing: .03rem;
     background-color: transparent;
     outline: none;
-    transition: .25s;
+    transition: .2s;
     border-radius: 8px;
     text-indent: 20px;
     margin-top: 8px;
@@ -145,13 +150,19 @@ h1{
     z-index: 10;
 }
 
-.my_form_actions a{
+.my_form_actions {
     display: flex;
     flex-direction: column;
     color: var(--secondary);
     gap: 16px;
     margin-top: 8px;
 
+}
+
+.my_form_actions a{
+
+    color: var(--secondary);
+    font-weight: 600;
 }
 
 .my_form_actions a:hover{
